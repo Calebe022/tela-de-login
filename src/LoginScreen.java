@@ -16,8 +16,8 @@ public class LoginScreen extends JFrame {
         setLocationRelativeTo(null);
         setLayout(new GridBagLayout());
 
-        // Altera a cor de fundo da janela para um azul claro
-        getContentPane().setBackground(new Color(173, 216, 230)); // Azul claro (light blue)
+        // Cor de fundo da janela
+        getContentPane().setBackground(new Color(173, 216, 230)); 
 
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.insets = new Insets(10, 10, 10, 10);
